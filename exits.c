@@ -13,7 +13,7 @@ int i, j;
 char *s = dest;
 
 i = 0;
-while (src[i] != '\0' && i < n - 1
+while (src[i] != '\0' && i < n - 1)
 {
 dest[i] = src[i];
 i++;
@@ -29,7 +29,6 @@ j++;
 }
 return (s);
 }
-
 /**
  **_strncat - concatenates two strings
  *@dest: the first string
